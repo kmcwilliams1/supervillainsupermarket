@@ -1,0 +1,28 @@
+{
+  "name": "supervilliansupermarket",
+  "version": "1.0.0",
+  "description": "Where Evil Doers like to shop",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmcwilliams1/redux-store.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kmcwilliams1/redux-store/issues"
+  },
+  "homepage": "https://github.com/kmcwilliams1/redux-store#readme"
+}
